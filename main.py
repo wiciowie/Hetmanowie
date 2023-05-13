@@ -62,7 +62,7 @@ def check_fourthQsquad(row,col):
             if count == 0:
                 sys.exit("Hetman wykryty")
 
-        if row + i == 7 or col + i == 0:
+        if row + i == 7 or col - i == 0:
             break
 
 
